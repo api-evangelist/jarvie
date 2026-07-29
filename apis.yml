@@ -1,23 +1,63 @@
 aid: jarvie
 name: Jarvie
-description: Jarvie is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Jarvie is a consumer AI assistant from All Day Technologies, Inc. that
+  lives inside iMessage and SMS group chats. Marketed as "your group chat sidekick,"
+  it helps people who text together plan events, learn things, and have fun, and can
+  draft emails and create calendar events on a user''s behalf. It offers memory features
+  to personalize responses across conversations. Jarvie is a mobile-messaging consumer
+  product surfaced as a portfolio company of Lightspeed Venture Partners; as of this
+  profile it does not publish a public API, developer portal, SDKs, or documentation
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/jarvie/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://heyjarvie.com/opengraph-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
+x-legal-name: All Day Technologies, Inc.
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- AI Assistant
+- Messaging
+- iMessage
+- SMS
+- Group Chat
+- Productivity
+- Consumer
+- Chatbot
 apis: []
+common:
+- type: DomainSecurity
+  url: security/jarvie-domain-security.yml
+- type: Website
+  url: https://heyjarvie.com
+- type: TermsOfService
+  url: https://heyjarvie.com/terms
+- type: PrivacyPolicy
+  url: https://heyjarvie.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
